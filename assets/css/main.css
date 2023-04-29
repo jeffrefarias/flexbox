@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+}
+
+.menu{
+    background-color: white;
+    width: 25em;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid gray;
+    flex:1;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+li .contenedorimg{
+    display: flex;
+    align-items: center;
+}
+
+.contenedorimg div{
+    margin-left: 10px;
+}
+
+p{
+    margin: 2px;
+}
+
+
+.estado{
+    color: gray;
+}
+
+i{
+    font-size: 1.5em;
+    padding-right: 0.3em;
+}
+
+li img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    border-left: 1px solid gray;
+}
+
+.imagen{
+    margin-top: 10em;
+    /* border: 1px solid rgb(34, 43, 168); */
+    text-align: center;
+}
+
+.imagen img{
+    border-radius: 20px;
+    height: 46em;
+    width: 40em;
+    max-width: 100%;
+}
+
+.boton{
+ padding: 1em 5em 1em 5em;
+ margin-left: 1.5em;
+/* justify-content: space-between; */
+ background-color: #6264a7;
+ color: white;
+
+}
